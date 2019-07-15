@@ -1,0 +1,161 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.first-section {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    background-image: url(../images/banner-box-nav.jpg);
+    background-position: top;
+    background-size: cover;
+    padding-bottom: 350px;
+    background-attachment: fixed;
+}
+
+.navigation {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    background-color: #fff;
+    padding: 10px 0px;
+    margin-top: 30px;
+}
+
+.list {
+    float: left;
+    width: 75%;
+    margin: 0;
+}
+
+.navimage {
+    float: left;
+    width: 25%;
+    margin: 0;
+    padding: 5px 0px 5px 30px;
+}
+
+.list ul {
+    padding: 0;
+}
+
+.list ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+.list a {
+    color: #212331;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: #00bcd4;
+    transition-duration: 0.3s;
+}
+
+.head-doc {
+    text-align: center;
+    margin: 0;
+    transform: translateY(55%);
+}
+
+.head-doc h1 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 72px;
+    margin: 0;
+}
+
+.doc1 {
+    font-weight: 200;
+}
+
+.doc2 {
+    font-weight: 700;
+}
+
+.head-doc h4 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.second-section {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+.card-section {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.card-size {
+    width: 33.33%;
+    float: left;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    display: table;
+}
+
+.card-blog {
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+.card-f{
+    background-color: #00bcd4;
+}
+.card-s{
+   background-color: #9bd230; 
+}
+.card-t{
+    background-color: #00bcd4;
+}
+.card-icon{
+    color: #fff;
+}
+
+.doc-card h4 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.doc-card p {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 0;
+}
