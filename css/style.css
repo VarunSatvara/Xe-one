@@ -106,41 +106,53 @@ html {
     width: 100%;
     margin: 0;
     overflow: auto;
+    overflow: visible;
 }
 
 .card-section {
     width: 80%;
     margin: auto;
     overflow: auto;
+    margin-top: -150px;
+    position: relative;
 }
 
 .card-size {
     width: 33.33%;
     float: left;
     margin: 0;
-    padding: 10px;
     text-align: center;
     display: table;
 }
 
 .card-blog {
-    height: 200px;
+    height: 250px;
     width: 100%;
     margin: 0;
     display: table-cell;
     vertical-align: middle;
+    padding: 50px 20px;
 }
-.card-f{
+
+.card-f {
     background-color: #00bcd4;
 }
-.card-s{
-   background-color: #9bd230; 
+
+.card-s {
+    background-color: #9bd230;
 }
-.card-t{
+
+.card-t {
     background-color: #00bcd4;
 }
-.card-icon{
+
+.card-icon {
+    padding-bottom: 20px;
+}
+
+.font-icon {
     color: #fff;
+    font-size: 25px;
 }
 
 .doc-card h4 {
@@ -149,13 +161,15 @@ html {
     line-height: 24px;
     font-weight: 700;
     margin: 0;
+    padding: 15px 0px;
 }
 
 .doc-card p {
     color: #fff;
     font-size: 14px;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     line-height: 24px;
     font-weight: 300;
     margin: 0;
+    padding: 10px 0px;
 }
