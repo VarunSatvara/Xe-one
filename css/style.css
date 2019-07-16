@@ -150,12 +150,6 @@ html {
     height: 300px;
     background-color: #9bd230;
 }
-
-.card-t {
-    background-color: #00bcd4;
-    transform: translateY(17px);
-}
-
 .card-icon {
     padding-bottom: 20px;
 }
@@ -187,4 +181,14 @@ html {
     font-weight: 300;
     margin: 0;
     padding: 10px 0px;
+}
+.third-section{
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+}
+.service-section{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
 }
