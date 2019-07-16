@@ -113,7 +113,7 @@ html {
     width: 80%;
     margin: auto;
     overflow: auto;
-    margin-top: -150px;
+    transform: translateY(-45%);
     position: relative;
 }
 
@@ -126,7 +126,7 @@ html {
 }
 
 .card-blog {
-    height: 250px;
+    height: 200px;
     width: 100%;
     margin: 0;
     display: table-cell;
@@ -134,16 +134,26 @@ html {
     padding: 50px 20px;
 }
 
+.card-blog:hover {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
 .card-f {
     background-color: #00bcd4;
+    transform: translateY(17px);
 }
 
 .card-s {
+    height: 300px;
     background-color: #9bd230;
 }
 
 .card-t {
     background-color: #00bcd4;
+    transform: translateY(17px);
 }
 
 .card-icon {
@@ -153,6 +163,11 @@ html {
 .font-icon {
     color: #fff;
     font-size: 25px;
+}
+
+.card-blog:hover .font-icon {
+    transform: scale(1.5);
+
 }
 
 .doc-card h4 {
